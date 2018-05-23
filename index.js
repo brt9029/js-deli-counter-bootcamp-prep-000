@@ -1,6 +1,6 @@
 var katzDeli = []
 
-function takeANumber(katzDeliLine, newPerson){
+function takeANumber(line, katzDeliLine, newPerson){
   katzDeliLine.push(newPerson)
   return `${newPerson} is ${katzDeliLine[-1] in line}`
 }
