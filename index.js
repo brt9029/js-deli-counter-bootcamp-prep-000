@@ -25,7 +25,6 @@ function currentLine(katzDeliLine){
     while (i < katzDeliLine.length) {
       line += place + person
       i ++
-      line += ', '
     }
   }
   return line
