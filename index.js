@@ -25,5 +25,6 @@ function currentLine(katzDeliLine){
       i++
     }
   }
+  line.pop()
   return line
 }
