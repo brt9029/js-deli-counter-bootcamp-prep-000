@@ -16,7 +16,6 @@ function nowServing(katzDeliLine){
 
 function currentLine(katzDeliLine){
   var i = 0
-  var comma = ", "
   var line = "The line is currently: "
   if (katzDeliLine.length === 0){
     return "The line is currently empty."
@@ -24,7 +23,6 @@ function currentLine(katzDeliLine){
     while (i < katzDeliLine.length) {
       line += `${i+1}` + `. ${katzDeliLine[i]}`
       i ++
-      line += comma
     }
   }
   return line
