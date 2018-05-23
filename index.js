@@ -23,8 +23,9 @@ function currentLine(katzDeliLine){
     return "The line is currently empty."
   } else {
     while (i < katzDeliLine.length){
-      return line + linePlace + personName + `, `
+      line += linePlace + personName + `, `
       i++
     }
   }
+  return line
 }
