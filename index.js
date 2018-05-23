@@ -20,10 +20,10 @@ function currentLine(katzDeliLine){
   if (katzDeliLine.length === 0){
     return "The line is currently empty."
   } else {
-    do {
+    while (i < katzDeliLine.length) {
       line += `${[i+1]}. ${katzDeliLine[i]}`
       i ++
-    } while (i < katzDeliLine.length)
+    }
   }
   return line
 }
