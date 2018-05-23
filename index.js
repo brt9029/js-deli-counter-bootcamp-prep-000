@@ -13,7 +13,7 @@ function nowServing(katzDeliLine){
       katzDeliLine.shift()
     } while (katzDeliLine.length > 0)
   }
-  katzDeliLine
+  return katzDeliLine
 }
 
 function currentLine(katzDeliLine){
