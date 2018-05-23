@@ -16,13 +16,14 @@ function nowServing(katzDeliLine){
 
 function currentLine(katzDeliLine){
   var i = 0
+  var line = "The line is currently: "
   var linePlace = `${[i+1]}. `
   var personName = `${katzDeliLine[i]}`
   if (katzDeliLine.length === 0){
     return "The line is currently empty."
   } else {
     while (i < katzDeliLine.length){
-      return "The line is currently: " + linePlace + personName + `, `
+      return line + linePlace + personName + `, `
       i++
     }
   }
