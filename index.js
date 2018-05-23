@@ -23,7 +23,7 @@ function currentLine(katzDeliLine){
     return "The line is currently empty."
   } else {
     while (i < katzDeliLine.length) {
-      line += place[i] + person[i]
+      line += place + person[i]
       i ++
     }
   }
