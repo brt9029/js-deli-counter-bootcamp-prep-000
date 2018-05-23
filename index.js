@@ -23,6 +23,7 @@ function currentLine(katzDeliLine){
     while (i < katzDeliLine.length) {
       line += `${[i+1]}. ${katzDeliLine[i]}`
       i ++
+      line += ', '
     }
   }
   return line
