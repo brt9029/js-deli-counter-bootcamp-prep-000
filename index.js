@@ -26,5 +26,5 @@ function currentLine(katzDeliLine){
       i ++
     }
   }
-  return numberedLine 
+  return line + numberedLine
 }
