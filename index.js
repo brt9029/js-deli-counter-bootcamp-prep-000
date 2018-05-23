@@ -6,7 +6,7 @@ function takeANumber(line, katzDeliLine, newPerson){
 }
 
 function nowServing(){
-  return katzDeli[0]
+  return `Currently serving ${katzDeli[0]}.`
     katzDeli.shift()
 }
 
