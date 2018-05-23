@@ -23,6 +23,5 @@ function currentLine(katzDeliLine){
     `The line is curretnly: ` + `${katzDeliLine[i+1]}. ` + `${katzDeliLine[i]}, `
     i ++
     }
-    return line
   }
 }
