@@ -8,9 +8,10 @@ function takeANumber(katzDeliLine, name){
 function nowServing(katzDeliLine){
   if (katzDeliLine.length == 0){
     return "The line is currently empty."
-  }
+  } else {
   return `Currently serving ${katzDeli[0]}.`
     katzDeli.shift()
+  }
 }
 
 function currentLine(){
